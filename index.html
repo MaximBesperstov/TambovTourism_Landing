@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тамбов Туризм</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="topnav">
+            <div class="container">
+                <div class="menu">
+                    <div class="logo">ТамбовТуризм</div>
+                    <div class="mainmenu">
+                        <a href="">Главная</a>
+                        <a href="">О компании</a>
+                        <a href="">Туры</a>
+                        <a href="">Отзывы</a>
+                        <a href="">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <span class="target"></span>
+
+
+    <div class="hero">
+        <div class="heroimg">
+            <div class="container">
+                <div class="main-text">
+                    <div class="main-title">
+                        <h1>ВРЕМЯ ПРИКЛЮЧЕНИЙ</h1>
+                        <p>Погрузитесь в удивительный мир природы России с нашей туристической компанией!
+                            Откройте для себя красоту Байкала и величие горных вершин в уникальных турах,
+                            которые оставят незабываемые впечатления. Присоединяйтесь к нам и отправляйтесь
+                            в захватывающее приключение, полное удивительных моментов и невероятных видов!</p>
+
+                    </div>
+                    <div class="number">
+                        <a href="#" id="link-01" onclick="changeImage(0)">01</a>
+                        <a href="#" id="link-02" onclick="changeImage(1)">02</a>
+                        <a href="#" id="link-03" onclick="changeImage(2)" class="active">03</a>
+                        <a href="#" id="link-04" onclick="changeImage(3)">04</a>
+                        <a href="#" id="link-05" onclick="changeImage(4)">05</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="botnav">
+            <div class="container">
+                <div class="maincard">
+                    <div class="card" id="firstCard">
+                        <div class="textup">
+                            <div class="logo"><img src="img/IconLocation.svg" alt=""></div>
+                            <div class="text"> Открытие Байкала:
+                                путешествие по самому
+                                глубокому озеру в мире</div>
+                        </div>
+                        <div class="more">Читать дальше...</div>
+                    </div>
+                    <div class="card">
+                        <div class="textup">
+                            <div class="logo"><img src="img/IconLocation.svg" alt=""></div>
+                            <div class="text"> Открытие Байкала:
+                                путешествие по самому
+                                глубокому озеру в мире</div>
+                        </div>
+                        <div class="more">Читать дальше...</div>
+                    </div>
+                    <div class="card">
+                        <div class="textup">
+                            <div class="logo"><img src="img/IconLocation.svg" alt=""></div>
+                            <div class="text"> Открытие Байкала:
+                                путешествие по самому
+                                глубокому озеру в мире</div>
+                        </div>
+                        <div class="more">Читать дальше...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero main END-->
+
+    <!-- ABOUT START-->
+    <div class="about-section">
+        <div class="bright">
+            <div class="container">
+                <div class="main-about">
+                    <div class="title">
+                        <h1>ПУТЕШЕСТВОВАТЬ НИКОГДА НЕ ПОЗДНО</h1>
+                        <p>А вместе с нами тем более...</p>
+                    </div>
+                    <div class="about-left">
+                        <div class="main-text">
+                            <p> Наша компания специализируется на организации увлекательных
+                                путешествий и экспедиций по Сибири и Камчатке. Мы предлагаем уникальные
+                                возможности для путешественников, желающих познакомиться с
+                                дикой природой этого удивительного региона.
+
+                                Мы проводим экспедиции по самым интересным заповедникам и
+                                национальным паркам Сибири, где можно увидеть уникальные виды
+                                растений и животных, а также насладиться красотой далеких уголков
+                                природы. Мы также организуем восхождения на самые высокие горы
+                                России, предоставляя уникальную возможность любителям
+                                альпинизма испытать свои силы.
+
+                                Наша команда опытных гидов и специалистов обеспечит вам
+                                безопасность и комфорт во время путешествия, а также поделится
+                                своими знаниями о местной природе и культуре. Мы стремимся
+                                сделать каждое путешествие по-настоящему незабываемым и
+                                вдохновляющим, чтобы вы смогли открыть для себя всю красоту и
+                                уникальность Сибири.</p>
+                        </div>
+                        <div class="sub-text">
+                            <p>Не верите? Вы только посмотрите наши туры и отзывы!</p>
+                        </div>
+                    </div>
+                    <div class="about-right">
+                        <img src="img/AboutSub.png" alt="">
+                        <span></span>
+                        <img src="img/Flag.png" alt="" id="flag">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT END-->
+    <!-- MAIN TOUR START-->
+    <div class="maintour-section">
+        <div class="bright">
+            <div class="container">
+                <div class="title">
+                    <h1>Наши основные туропотоки</h1>
+                </div>
+                <div class="maintour">
+                    <div class="tour">
+                        <div class="left">
+                            <img src="img/card1.png" alt="">
+                        </div>
+                        <div class="right">
+                            <div class="title">
+                                Восхождение на гору Белуха
+                            </div>
+                            <p> Покорите самую высокую гору Алтая и насладитесь потрясающими видами с ее вершины. Наша
+                                команда опытных альпинистов поможет вам преодолеть
+                                все трудности и достичь этой огромной горы. Мы предлагаем полный спектр услуг, включая
+                                обучение, аренду снаряжения, гидов и поддержку во время восхождения. </p>
+                            <div class="btn">
+                                <div class="leftbtn">100 000 ₽</div>
+                                <div class="rightbtn">
+                                    <p>20-28.01</p>
+                                    <div class="people">
+                                        <img src="img/Person.svg" alt="">
+                                        <p>2 чел.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="morebtn">
+                                <p>Подробнее о туре</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tour">
+                        <div class="left">
+                            <img src="img/card2.jpg" alt="">
+                        </div>
+                        <div class="right">
+                            <div class="title">
+                                Путешествие на озеро Байкал
+                            </div>
+                            <p> Проведите незабываемое время, исследуя удивительные красоты Байкала
+                                вместе с нашей командой опытных гидов. Мы предлагаем экскурсии и активности,
+                                чтобы каждый мог найти что-то по своему вкусу. Независимо от того,
+                                предпочитаете ли вы активный отдых или спокойное время-препровождение,
+                                у нас найдется что-то интересное для вас. </p>
+                            <div class="btn">
+                                <div class="leftbtn">100 000 ₽</div>
+                                <div class="rightbtn">
+                                    <p>20-28.01</p>
+                                    <div class="people">
+                                        <img src="img/Person.svg" alt="">
+                                        <p>2 чел.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="morebtn">
+                                <p>Подробнее о туре</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tour">
+                        <div class="left">
+                            <img src="img/card3.jpg" alt="">
+                        </div>
+                        <div class="right">
+                            <div class="title">
+                                Поход по Тунгусскому заповеднику
+                            </div>
+                            <p> Приезжайте к нам в любое время года - здесь всегда есть что-то
+                                удивительное и уникальное. Летом вы сможете отправиться в походы по
+                                окрестностям, совершить прогулки на лодках или каяках, а зимой
+                                - насладиться катанием на лыжах, снегоходах или просто насладиться
+                                красотой заснеженных пейзажей. </p>
+                            <div class="btn">
+                                <div class="leftbtn">100 000 ₽</div>
+                                <div class="rightbtn">
+                                    <p>20-28.01</p>
+                                    <div class="people">
+                                        <img src="img/Person.svg" alt="">
+                                        <p>2 чел.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="morebtn">
+                                <p>Подробнее о туре</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN TOUR END-->
+    <!-- TESTIMONIALS Start-->
+    <div class="testimonials-section">
+        <div class="container">
+            <div class="title">
+                <h1>Отзывы наших путешественников</h1>
+            </div>
+            <div class="testimonials-main">
+                <div class="btn">
+                    <div class="leftbtn" id="prev">< </div>
+
+                            <div class="testimonial">
+                                <div class="maincard"> 
+                                    <div class="leftblock">
+                                        <div class="avatar">
+                                            <img src="img/agent1.png"
+                                                alt="">
+                                        </div>
+                                        <div class="aboutauthor">
+                                            <p>Екатерина</p>
+                                            <p>25.12.2021г</p>
+                                            <p>Тур “Сердце Сибири”</p>
+                                        </div>
+                                        <div class="text"> Я выбрала экскурсию по озеру Байкал и не пожалела ни на
+                                            секунду. Проживание в уютной гостинице, экскурсии с
+                                            опытными гидами, активный отдых на свежем воздухе - все это превзошло мои
+                                            ожидания. Зимой я даже попробовала катание на снегоходе, что было невероятно
+                                            весело. Я точно вернусь.</div>
+                                    </div>
+                                    <div class="rightblock">
+                                        <img src="img/Agentbg1.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="maincard"> 
+                                    <div class="leftblock">
+                                        <div class="avatar">
+                                            <img src="img/agent1.png"
+                                                alt="">
+                                        </div>
+                                        <div class="aboutauthor">
+                                            <p>Серафима</p>
+                                            <p>25.12.2022г</p>
+                                            <p>Тур “на Байкал”</p>
+                                        </div>
+                                        <div class="text"> Я выбрала экскурсию по озеру Байкал и не пожалела ни на
+                                            секунду. Проживание в уютной гостинице, экскурсии с
+                                            опытными гидами, активный отдых на свежем воздухе - все это превзошло мои
+                                            ожидания. Зимой я даже попробовала катание на снегоходе, что было невероятно
+                                            весело. Я точно вернусь.</div>
+                                    </div>
+                                    <div class="rightblock">
+                                        <img src="img/Agentbg1.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="maincard"> 
+                                    <div class="leftblock">
+                                        <div class="avatar">
+                                            <img src="img/agent1.png"
+                                                alt="">
+                                        </div>
+                                        <div class="aboutauthor">
+                                            <p>Наталья</p>
+                                            <p>25.12.2023г</p>
+                                            <p>Тур “Сердце Сибири”</p>
+                                        </div>
+                                        <div class="text"> Я выбрала экскурсию по озеру Байкал и не пожалела ни на
+                                            секунду. Проживание в уютной гостинице, экскурсии с
+                                            опытными гидами, активный отдых на свежем воздухе - все это превзошло мои
+                                            ожидания. Зимой я даже попробовала катание на снегоходе, что было невероятно
+                                            весело. Я точно вернусь.</div>
+                                    </div>
+                                    <div class="rightblock">
+                                        <img src="img/Agentbg1.png" alt="">
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="rightbtn" id="next"> > </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TESTIMONIALS END-->
+    <!-- FEEDBACK START-->
+    <div class="feedback-section">
+        <div class="bright">
+            <div class="container">
+                <div class="title">
+                    <h1>Заинтересовали? Скорее оставляй заявку!</h1>
+                </div>
+                <div class="feedback-main">
+                    <div class="input-section">
+                        <button>Выбери свой тур ></button>
+                        <input placeholder="Ваше имя..." />
+                        <input placeholder="E-mail" />
+                        <input placeholder="Мобильный телефон" />
+                        <button>Отправить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FEEDBACK END-->
+    <!-- mini FOOTER START-->
+    <div class="copyright">
+        <div class="container">
+            <h4>Codemax studios</h4>
+            <div class="year">
+                <p>2023 year.</p>
+                <p>Копирайт (Copyright ®)</p>
+            </div>
+            <div class="social">
+                <p>design by</p>
+                <a class="#" href="">VK</a>
+                <a class="#" href="">TG</a>
+            </div>
+        </div>
+    </div>
+    <!-- mini FOOTER END-->
+
+    <script src="SliderTestimonials.js"></script>
+    <script src="BGslide.js"></script>
+    <script src="hover.js"></script>
+    <script src="hoverbot.js"></script>
+</body>
+
+</html>
